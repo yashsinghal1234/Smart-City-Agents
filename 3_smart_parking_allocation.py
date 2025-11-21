@@ -171,10 +171,9 @@ def main():
                 f'{cost:.1f}', ha='center', va='bottom')
 
     plt.tight_layout()
-    plt.savefig('smart_parking_allocation.png', dpi=150, bbox_inches='tight')
-    print("\nGraph saved as 'smart_parking_allocation.png'")
+    plt.savefig('graphs/smart_parking_allocation.png', dpi=150, bbox_inches='tight')
+    print("\nGraph saved as 'graphs/smart_parking_allocation.png'")
     plt.show()
 
 if __name__ == "__main__":
     main()
-

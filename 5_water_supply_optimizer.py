@@ -222,15 +222,9 @@ def main():
     ax4.grid(True, alpha=0.3, axis='x')
 
     plt.tight_layout()
-    plt.savefig('water_supply_optimization.png', dpi=150, bbox_inches='tight')
-    print("\nGraph saved as 'water_supply_optimization.png'")
+    plt.savefig('graphs/water_supply_optimization.png', dpi=150, bbox_inches='tight')
+    print("\nGraph saved as 'graphs/water_supply_optimization.png'")
     plt.show()
 
 if __name__ == "__main__":
     main()
-# matplotlib
-# numpy
-# scikit-learn
-# scipy
-# networkx
-

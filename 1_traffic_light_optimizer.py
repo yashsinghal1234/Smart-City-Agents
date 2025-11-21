@@ -97,10 +97,9 @@ def main():
     plt.grid(True, alpha=0.3, axis='y')
 
     plt.tight_layout()
-    plt.savefig('traffic_light_optimization.png', dpi=150, bbox_inches='tight')
-    print("\nGraph saved as 'traffic_light_optimization.png'")
+    plt.savefig('graphs/traffic_light_optimization.png', dpi=150, bbox_inches='tight')
+    print("\nGraph saved as 'graphs/traffic_light_optimization.png'")
     plt.show()
 
 if __name__ == "__main__":
     main()
-

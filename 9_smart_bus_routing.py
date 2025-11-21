@@ -199,10 +199,9 @@ def main():
             facecolor='lightgreen', alpha=0.7))
 
     plt.tight_layout()
-    plt.savefig('smart_bus_routing.png', dpi=150, bbox_inches='tight')
-    print("\nGraph saved as 'smart_bus_routing.png'")
+    plt.savefig('graphs/smart_bus_routing.png', dpi=150, bbox_inches='tight')
+    print("\nGraph saved as 'graphs/smart_bus_routing.png'")
     plt.show()
 
 if __name__ == "__main__":
     main()
-

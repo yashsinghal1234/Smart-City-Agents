@@ -165,10 +165,9 @@ def main():
     ax2.grid(True, alpha=0.3, axis='y')
 
     plt.tight_layout()
-    plt.savefig('emergency_response.png', dpi=150, bbox_inches='tight')
-    print("\nGraph saved as 'emergency_response.png'")
+    plt.savefig('graphs/emergency_response.png', dpi=150, bbox_inches='tight')
+    print("\nGraph saved as 'graphs/emergency_response.png'")
     plt.show()
 
 if __name__ == "__main__":
     main()
-

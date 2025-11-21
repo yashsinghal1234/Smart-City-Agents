@@ -165,10 +165,9 @@ def main():
                 f'{value:.1f}', ha='center', va='bottom')
 
     plt.tight_layout()
-    plt.savefig('streetlight_energy_saver.png', dpi=150, bbox_inches='tight')
-    print("\nGraph saved as 'streetlight_energy_saver.png'")
+    plt.savefig('graphs/streetlight_energy_saver.png', dpi=150, bbox_inches='tight')
+    print("\nGraph saved as 'graphs/streetlight_energy_saver.png'")
     plt.show()
 
 if __name__ == "__main__":
     main()
-

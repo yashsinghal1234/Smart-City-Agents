@@ -213,10 +213,9 @@ def main():
     ax4.set_ylim([0, 1.1])
 
     plt.tight_layout()
-    plt.savefig('energy_distribution.png', dpi=150, bbox_inches='tight')
-    print("\nGraph saved as 'energy_distribution.png'")
+    plt.savefig('graphs/energy_distribution.png', dpi=150, bbox_inches='tight')
+    print("\nGraph saved as 'graphs/energy_distribution.png'")
     plt.show()
 
 if __name__ == "__main__":
     main()
-
