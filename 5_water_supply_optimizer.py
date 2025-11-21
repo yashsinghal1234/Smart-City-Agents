@@ -228,9 +228,9 @@ def main():
 
 if __name__ == "__main__":
     main()
-matplotlib
-numpy
-scikit-learn
-scipy
-networkx
+# matplotlib
+# numpy
+# scikit-learn
+# scipy
+# networkx
 
