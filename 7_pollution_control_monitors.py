@@ -167,10 +167,9 @@ def main():
     ax4.axhline(y=0, color='black', linestyle='-', linewidth=0.5)
 
     plt.tight_layout()
-    plt.savefig('pollution_control.png', dpi=150, bbox_inches='tight')
-    print("\nGraph saved as 'pollution_control.png'")
+    plt.savefig('graphs/pollution_control.png', dpi=150, bbox_inches='tight')
+    print("\nGraph saved as 'graphs/pollution_control.png'")
     plt.show()
 
 if __name__ == "__main__":
     main()
-
